@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/koshatul/satis-go/src/satis/satisphp/api"
+	"github.com/AlchemicA/satis-go/src/satis/satisphp/api"
 )
 
 var _ = log.Print

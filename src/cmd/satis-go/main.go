@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/koshatul/satis-go/src/satis"
+	"github.com/AlchemicA/satis-go/src/satis"
 	"gopkg.in/yaml.v2"
 )
 
