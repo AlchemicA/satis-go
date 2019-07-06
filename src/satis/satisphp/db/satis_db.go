@@ -1,5 +1,6 @@
 package db
 
+// SatisDB needs a comment
 type SatisDb struct {
 	Abandoned              map[string]string `json:"abandoned,omitempty"`
 	Archive                SatisArchive      `json:"archive,omitempty"`
@@ -22,11 +23,13 @@ type SatisDb struct {
 	TwigTemplate           string            `json:"twig-template,omitempty"`
 }
 
+// SatisRepository needs a comment
 type SatisRepository struct {
 	Type string `json:"type"`
-	Url  string `json:"url"`
+	URL  string `json:"url"`
 }
 
+// SatisArchive needs a comment
 type SatisArchive struct {
 	AbsoluteDirectory string   `json:"absolute-directory,omitempty"`
 	Blacklist         []string `json:"blacklist,omitempty"`
@@ -39,6 +42,7 @@ type SatisArchive struct {
 	Whitelist         []string `json:"whitelist,omitempty"`
 }
 
+// SatisConfig needs a comment
 type SatisConfig struct {
 	AutoloaderSuffix      string                 `json:"autoloader-suffix,omitempty"`
 	BinCompat             string                 `json:"bin-compat,omitempty"`
