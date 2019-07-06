@@ -1,4 +1,4 @@
-package: github.com/koshatul/satis-go
+package: github.com/AlchemicA/satis-go
 import:
 - package: github.com/goji/httpauth
 - package: github.com/gorilla/mux
